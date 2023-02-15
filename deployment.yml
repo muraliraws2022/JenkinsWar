@@ -1,4 +1,4 @@
- - hosts: appserver
+ - hosts: webserver
    tasks:
    - name:  
      copy: srcc=target/realapp-18.0 dest=/usr/local/tomcat8/webapps/
